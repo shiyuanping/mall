@@ -1,17 +1,34 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <cart></cart>
+    <mt-tabbar>
+      <mt-tab-item id="tab1">
+        首页
+      </mt-tab-item>
+      <mt-tab-item id="tab2">
+        分类
+      </mt-tab-item>
+      <mt-tab-item id="tab3" class="active">
+        购物车
+      </mt-tab-item>
+      <mt-tab-item id="tab4">
+        我的
+      </mt-tab-item>
+    </mt-tabbar>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Index from './components/Index.vue'
+import MyInfo from './components/MyInfo.vue'
+import Cart from './components/Cart'
 
 export default {
   name: 'app',
   components: {
-    HelloWorld
+    Index,
+    MyInfo,
+    Cart
   }
 }
 </script>
@@ -24,5 +41,8 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+.active{
+  color: #FE3540;
 }
 </style>
