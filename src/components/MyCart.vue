@@ -6,7 +6,7 @@
 
 <script>
    export default{
-       name: 'cart'
+       name: 'my-cart'
    }
 </script>
 <style scoped>

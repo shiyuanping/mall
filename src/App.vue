@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <cart></cart>
+    <my-cart></my-cart>
     <mt-tabbar>
       <mt-tab-item id="tab1">
         首页
@@ -21,14 +21,14 @@
 <script>
 import Index from './components/Index.vue'
 import MyInfo from './components/MyInfo.vue'
-import Cart from './components/Cart'
+import Cart from './components/MyCart.vue'
 
 export default {
   name: 'app',
   components: {
     Index,
     MyInfo,
-    Cart
+    MyCart
   }
 }
 </script>

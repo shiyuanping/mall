@@ -7,7 +7,7 @@
 
 <script>
 export default {
-  name: 'Index',
+  name: 'my-index',
   props: {
     msg: String
   }
