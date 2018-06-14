@@ -19,15 +19,15 @@
 </template>
 
 <script>
-import Index from './components/Index.vue'
-import MyInfo from './components/MyInfo.vue'
+// import Index from './components/Index.vue'
+// import MyInfo from './components/MyInfo.vue'
 import MyCart from './components/MyCart.vue'
 
 export default {
   name: 'app',
   components: {
-    Index,
-    MyInfo,
+    // Index,
+    // MyInfo,
     MyCart
   }
 }
