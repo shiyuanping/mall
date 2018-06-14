@@ -9,7 +9,7 @@
                     <span class="to-piece">去凑单></span>
                 </div>
                 <div class="goods">
-                    <div class="dot">点</div>
+                    <div class="dot"></div>
                     <div class="goods-item">
                         <div class="item-pic"></div>
                         <div class="item-msg">
