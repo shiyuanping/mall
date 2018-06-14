@@ -21,7 +21,7 @@
 <script>
 import Index from './components/Index.vue'
 import MyInfo from './components/MyInfo.vue'
-import Cart from './components/MyCart.vue'
+import MyCart from './components/MyCart.vue'
 
 export default {
   name: 'app',
@@ -40,7 +40,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 46px;
 }
 .active{
   color: #FE3540;
